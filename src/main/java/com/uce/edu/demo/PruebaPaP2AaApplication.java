@@ -37,6 +37,7 @@ public class PruebaPaP2AaApplication implements CommandLineRunner{
 		p.setCedula("1725776650");
 		p.setFechaNacimiento(LocalDateTime.of(1999, 06, 03, 15, 11));
 		
+		this.matriculaServie.matricular("1725776650", "123");
 		
 	}
 	
