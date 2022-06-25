@@ -1,4 +1,4 @@
-package com.uce.edu.modelo;
+package com.uce.edu.demo.modelo;
 
 import java.math.BigDecimal;
 
@@ -36,6 +36,4 @@ public class Vehiculo {
 		return "Vehiculo [marca=" + marca + ", placa=" + placa + ", tipo=" + tipo + ", precio=" + precio + "]";
 	}
 	
-	
-
 }
